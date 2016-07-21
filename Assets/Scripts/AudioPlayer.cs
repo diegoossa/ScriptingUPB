@@ -28,7 +28,7 @@ public class AudioPlayer : MonoBehaviour
     /// </summary>
     public void PauseAudio()
     {
-        //Se usa el AudioSource y se usa su funcion Play
+        //Se usa el AudioSource y se usa su funcion Pause
         _audioSource.Pause();
     }
 
